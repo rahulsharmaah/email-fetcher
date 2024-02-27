@@ -34,7 +34,6 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       width: 300px;
-      /* Adjust the width as needed */
     }
 
     label {
@@ -73,7 +72,6 @@
       padding: 20px;
       margin: 10px;
       width: calc(33.33% - 20px);
-      /* 3 cards per row with margin */
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: left;
@@ -83,7 +81,6 @@
       margin-top: 10px;
     }
 
-    /* Add new style to prevent the header from disappearing */
     .email-card-container:after {
       content: "";
       flex-grow: 99999;
@@ -171,7 +168,7 @@
         imap_close($mailbox);
       }
 
-      echo '</div>'; // Close the email-card-container
+      echo '</div>'; 
     }
     ?>
 
